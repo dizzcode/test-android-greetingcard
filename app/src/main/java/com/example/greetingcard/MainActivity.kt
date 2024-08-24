@@ -33,7 +33,17 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+//@Composable : The annotation tells the Kotlin compiler that this function is used by Jetpack Compose to generate the UI.
+//NOTE #1
+// 1 - @Composable function names are capitalized.
+// 2 - @Composable functions can't return anything.
 
+//NOTE #2
+//To surround the text with a Surface, highlight the line of text,
+// press (Alt+Enter for Windows or Option+Enter on Mac),
+// and then select Surround with widget.
+
+//https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface(color = Color.Cyan) {
