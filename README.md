@@ -1,1 +1,1 @@
-# test-android-greetingcard
+# Greetingcard App | Android Training
